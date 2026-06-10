@@ -1,0 +1,45 @@
+{
+    "template_id": "1",
+    "enabled": true,
+    "slave_addr": "02",
+    "function_code": "04",
+    "register_addr": "0",
+    "register_num": "12",
+    "timeout": "1000",
+    "data_format": "HEX",
+    "interval_time": "2000",
+    "report_format": "mqtt",
+    "baud_rate": "9600",
+    "data_bit": "8",
+    "stop_bit": "1",
+    "check_bit": "None",
+    "response_data": [
+        {
+            "data1": "0125",
+            "data2": "00A0"
+        }
+    ]
+}
+
+{
+    "template_id": "2",
+    "enabled": true,
+    "slave_addr": "02",
+    "function_code": "04",
+    "register_addr": "0",
+    "register_num": "12",
+    "timeout": "1000",
+    "data_format": "Double",
+    "interval_time": "2000",
+    "report_format": "mqtt",
+    "baud_rate": "9600",
+    "data_bit": "8",
+    "stop_bit": "1",
+    "check_bit": "None",
+    "response_data": [
+        {
+            "data1": "0.0001",
+            "data2": "0.0002"
+        }
+    ]
+}

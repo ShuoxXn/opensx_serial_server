@@ -1,0 +1,24 @@
+.DS_Store
+.cache/
+__pycache__/
+*.pyc
+
+# Local build outputs
+build/
+bin/
+dist/
+*.elf
+*.map
+
+# Generated analysis and backup files
+size_files.json
+size_*.json
+sdkconfig.bak
+sdkconfig.old
+
+# Local tool/session files
+.codex
+.agents/
+
+# Python packaging outputs
+*.spec
